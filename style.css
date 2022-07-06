@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+    color: purple;
+}
+.container{
+    width : 50%;
+    margin: auto;
+ } 
+
+input, label{
+    display: block;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+label{
+    font-weight: 600;
+    color: purple
+}
+
+#check-number{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: purple;
+    font-weight: 600;
+}
+
+#output-box{
+    margin: 1rem;
+    text-align: center;
+}
